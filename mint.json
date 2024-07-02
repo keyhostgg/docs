@@ -19,6 +19,10 @@
 		{
 			"name": "Poradniki",
 			"url": "poradniki"
+		},
+		{
+			"name": "Nasze Projekty",
+			"url": "projects"
 		}
 	],
 	"anchors": [
@@ -44,16 +48,12 @@
 			"pages": ["homepage"]
 		},
 		{
-			"group": "API Documentation",
-			"pages": ["poradniki/introduction"]
+			"group": "Poradniki",
+			"pages": ["poradniki/list"]
 		},
 		{
-			"group": "Endpoint Examples",
-			"pages": [
-				"poradniki/endpoint/get",
-				"poradniki/endpoint/create",
-				"poradniki/endpoint/delete"
-			]
+			"group": "Nasze Projekty",
+			"pages": ["projects/test"]
 		}
 	],
 	"footerSocials": {
